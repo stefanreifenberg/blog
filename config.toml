@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://stefanreifenberg.github.io/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
@@ -43,7 +43,7 @@ theme = "hello-friend-ng"
       [[languages.en.menu.main]]
         identifier = "blog"
         name = "blog"
-        url = "/blog"
+        url = "/post"
 
 # And you can even create generic menu
 [menu]
