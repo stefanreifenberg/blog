@@ -1,6 +1,14 @@
 baseurl = "https://stefanreifenberg.github.io/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
+#publishDir = "stefanreifenberg.ithub.io"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -18,13 +26,29 @@ theme = "hello-friend-ng"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
+  homeSubtitle = "Developer, Scientist, Dataviz lover"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/Reyfenberg"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:stefan.reifenberg@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/stefanreifenberg"
+
+
 [languages]
   [languages.en]
     title = "Stefan Reifenberg"
-    subtitle = "what?"
+    subtitle = "Test"
     keywords = ""
-    copyright = ""
-    readOtherPosts = "Read other posts"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = ""
 
     [languages.en.params.logo]
       logoText = "$ cd /home/"
